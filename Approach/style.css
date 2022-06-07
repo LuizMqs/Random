@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url(https://sme.goiania.go.gov.br/conexaoescola/wp-content/uploads/2021/11/background-5594879_1920-e1637861695365.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3vh;
+}
+
+input {
+    background-color: rgba(255, 255, 255, 0.763);
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 5vh;
+}
+
+#button {
+    background-color: transparent;
+    border: none;
+    font-size: 5vh;
+    border-bottom: 3px solid black;
+}
+
+#button:hover {
+    border-bottom: 3px solid rgb(23, 63, 66);
+    color: rgb(23, 63, 66);
+    transition: 0.1s;
+    cursor: pointer;
+}
